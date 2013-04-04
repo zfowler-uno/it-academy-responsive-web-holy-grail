@@ -1,0 +1,319 @@
+/**
+ * Color palette. Thanks http://kuler.adobe.com
+ * SCSS Based on @joshbroton's styles.css https://github.com/joshbroton/Responsive-Boot-Camp/blob/master/scss/styles.scss
+ */
+$brown: rgb(115,82,54);             /* Brown #735236 */
+$darkbrown: rgb(64,49,37);          /* Dark Brown #403125 */
+$tan: rgb(217,183,154);             /* Tan #d9b79a */
+$orange: rgb(217,82,4);             /* Orange #d95204 */
+$darkred: rgb(115,12,2);            /* DarkRed #730c02 */
+$olive: rgb(58,53,13);              /* Olive #3a350d */
+$gold: rgb(242,188,27);             /* Gold #f2bc1b */
+$darkgold: darken($gold, 20%);      /* Dark Gold #dfa61c */
+
+// Greys
+$black: rgb(0,0,0);                 /* Black #000000 */
+$darkergrey: lighten($black, 10%);  /* Darker Grey  */
+$darkgrey: lighten($black, 25%);    /* Dark Grey #404040 */
+$midgrey: lighten($black, 50%);     /* Mid Grey #808080 */
+$lightgrey: lighten($black, 75%);   /* Light Grey #bfbfbf */
+$lightergrey: lighten($black, 90%); /* Lighter Grey #e6e6e6 */
+$white: rgb(255,255,255);           /* White #ffffff */
+
+// Base
+$bodycolor: $white;
+$textcolor: $black;
+
+// Typography
+$basefont: Verdana, Arial, Helvetica, sans-serif;
+$basefontsize: 100%;
+$baselineheight: 1.2em;
+$headingfont: SFFedora, Georgia, Times, "Times New Roman", serif;
+$headinglineheight: 1.35em;
+
+// Links
+$linkcolor: $orange;
+$linkhover: darken($linkcolor,12%);
+$linkvisited: darken($linkcolor, 25%);
+$linkfocus: darken($linkcolor, 35%);
+
+
+//
+// ---- ---- ---- ---- MIXINS ---- ---- ---- ----
+//
+// Thank you to Andy Clarke for most of these (320 and Up)
+// @include text-overflow()
+@mixin text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Gradient Backgrounds
+// @include horizontal(COLOR, COLOR)
+@mixin horizontal($startColor: $white, $endColor: $lightergrey) {
+  background-color: $endColor;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from($startColor), to($endColor));
+  background-image: -webkit-linear-gradient(left, $startColor, $endColor);
+  background-image: -moz-linear-gradient(left, $startColor, $endColor);
+  background-image: -ms-linear-gradient(left, $startColor, $endColor);
+  background-image: -o-linear-gradient(left, $startColor, $endColor);
+  background-image: linear-gradient(left, $startColor, $endColor);
+  background-repeat: repeat-x;
+}
+
+// @include vertical(COLOR, COLOR)
+@mixin vertical($startColor: $white, $endColor:  $lightergrey) {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from($startColor), to($endColor));
+  background-image: -webkit-linear-gradient(top, $startColor, $endColor);
+  background-color: $endColor;
+  background-image: -moz-linear-gradient(top, $startColor, $endColor);
+  background-image: -ms-linear-gradient(top, $startColor, $endColor);
+  background-image: -o-linear-gradient(top, $startColor, $endColor);
+  background-image: linear-gradient(top, $startColor, $endColor);
+  background-repeat: repeat-x;
+}
+
+// @include directional(COLOR, COLOR, DEG)
+@mixin directional($startColor: $white, $endColor: $lightergrey, $deg: 45deg) {
+  background-color: $endColor;
+  background-image: -moz-linear-gradient($deg, $startColor, $endColor);
+  background-image: -ms-linear-gradient($deg, $startColor, $endColor);
+  background-image: -webkit-linear-gradient($deg, $startColor, $endColor);
+  background-image: -o-linear-gradient($deg, $startColor, $endColor);
+  background-image: linear-gradient($deg, $startColor, $endColor);
+  background-repeat: repeat-x;
+}
+
+// Box Styles
+// @include rounded(INT)
+@mixin rounded($radius: 4px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// @include border-radius(INT, INT, INT, INT)
+@mixin border-radius($topright: 0, $bottomright: 0, $bottomleft: 0, $topleft: 0) {
+  -webkit-border-top-right-radius: $topright;
+  -webkit-border-bottom-right-radius: $bottomright;
+  -webkit-border-bottom-left-radius: $bottomleft;
+  -webkit-border-top-left-radius: $topleft;
+  -moz-border-radius-topright: $topright;
+  -moz-border-radius-bottomright: $bottomright;
+  -moz-border-radius-bottomleft: $bottomleft;
+  -moz-border-radius-topleft: $topleft;
+  border-top-right-radius: $topright;
+  border-bottom-right-radius: $bottomright;
+  border-bottom-left-radius: $bottomleft;
+  border-top-left-radius: $topleft;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+// @include box-shadow(SHADOW DELCARATION)
+@mixin box-shadow($shadow: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+// @include drop-shadow(X-OFFSET, Y-OFFSET, BLUR, ALPHA)
+@mixin drop-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $alpha: 0.1) {
+  -webkit-box-shadow: $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+  -moz-box-shadow: $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+  box-shadow: $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+}
+
+// @include opacity(DECIMAL 0-1)
+@mixin opacity($opacity: .5) {
+  -webkit-opacity: $opacity;
+  -moz-opacity: $opacity;
+  opacity: $opacity;
+}
+
+// @include transition(PROPERTY DURATION DELAY(OPT) TIMING-FUNCTION)
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+// Object contains floated children
+// @include clearfix()
+@mixin clearfix() {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Image Replacement
+// @include hide-text()
+@mixin hide-text() {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+// Value using calc
+// @include width-calc(STRING PROPERTY, STRING OPERATION)
+@mixin css3-calc($property, $operation) {
+  #{$property}: -moz-calc(#{$operation});
+  #{$property}: -webkit-calc(#{$operation});
+  #{$property}: calc(#{$operation});
+}
+
+
+/*
+  ---- ---- ---- ---- FONT-FACE DECLARATIONS ---- ---- ---- ----
+*/
+@font-face {
+  font-family: 'SF Fedora';
+  src: url('../fonts/SF_Fedora.eot'),
+url('../fonts/SF_Fedora.eot#iefix') format('embedded-opentype'),
+  url('../fonts/SF_Fedora.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Fedora Outline';
+  src: url('../fonts/SF%20Fedora%20Outline.eot'),
+  url('../fonts/SF%20Fedora%20Outline.eot#iefix') format('embedded-opentype'),
+  url('../fonts/SF%20Fedora%20Outline.ttf');
+
+}
+/*
+  ---- ---- ---- ---- BASE STYLES  ---- ---- ---- ----
+*/
+
+a {
+  color: $linkcolor;
+  text-decoration: none;
+  &:hover {
+    color: $linkhover;
+    text-decoration: underline;
+  }
+  &:visited {
+    color: $linkvisited
+
+  }
+  &:focus,
+  &:active {
+    color: $linkfocus;
+  }
+
+}
+h1 {
+  font-family: 'SF Fedora';
+  color: $darkred;
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: 'SF Fedora';
+  color: $darkgold;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+
+
+}
+
+img {
+  width: 100%;
+}
+
+/*
+  ---- ---- ---- ---- ALL VIEWPORTS AND SIZES ---- ---- ---- ----
+*/
+// The core, base CSS is here.
+body,html {
+  background-color: $white;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+header.banner {
+  margin: 0.5em;
+  img {
+    width: 10%;
+    max-width: 150px;
+    margin: 1.1em 0;
+    float: right;
+  }
+
+}
+#nav {
+  background-color: $darkbrown;
+  color: $tan;
+  .menu_title {
+    font-family: $basefont;
+    margin: 0;
+    background-color: $darkbrown;
+  }
+}
+
+#nav ul {
+  background-color: $darkbrown;
+  list-style: none;
+  width: 100%;
+  padding-left: 10px;
+  margin: 0;
+  li {
+    padding: 0.1em;
+    a {
+      color: $tan;
+      display: block;
+      &:hover,&:active,&:focus {
+        color: lighten($tan,20%);
+      }
+    }
+  }
+}
+
+footer   {
+  background-color: $darkred;
+  color: $tan;
+  padding: 1em 0.5em 0.2em;
+  maring: 0;
+  font-size: 0.8em;
+}
+
+.content,
+ aside {
+
+}
+
+
+
+/*  Tablet */
+/*
+@media screen and (min-width: 700px) {
+
+  #nav {
+    float: right;
+    ul {
+      list-style: none;
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline;
+    }
+  }
+}
+*/

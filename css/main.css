@@ -1,0 +1,125 @@
+/**
+ * Color palette. Thanks http://kuler.adobe.com
+ * SCSS Based on @joshbroton's styles.css https://github.com/joshbroton/Responsive-Boot-Camp/blob/master/scss/styles.scss
+ */
+/* Brown #735236 */
+/* Dark Brown #403125 */
+/* Tan #d9b79a */
+/* Orange #d95204 */
+/* DarkRed #730c02 */
+/* Olive #3a350d */
+/* Gold #f2bc1b */
+/* Dark Gold #dfa61c */
+/* Black #000000 */
+/* Darker Grey  */
+/* Dark Grey #404040 */
+/* Mid Grey #808080 */
+/* Light Grey #bfbfbf */
+/* Lighter Grey #e6e6e6 */
+/* White #ffffff */
+/*
+  ---- ---- ---- ---- FONT-FACE DECLARATIONS ---- ---- ---- ----
+*/
+@font-face {
+  font-family: 'SF Fedora';
+  src: url("../fonts/SF_Fedora.eot"), url("../fonts/SF_Fedora.eot#iefix") format("embedded-opentype"), url("../fonts/SF_Fedora.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SF Fedora Outline';
+  src: url("../fonts/SF%20Fedora%20Outline.eot"), url("../fonts/SF%20Fedora%20Outline.eot#iefix") format("embedded-opentype"), url("../fonts/SF%20Fedora%20Outline.ttf"); }
+
+/*
+  ---- ---- ---- ---- BASE STYLES  ---- ---- ---- ----
+*/
+a {
+  color: #d95204;
+  text-decoration: none; }
+  a:hover {
+    color: #9d3b03;
+    text-decoration: underline; }
+  a:visited {
+    color: #5c2302; }
+  a:focus, a:active {
+    color: #2a1001; }
+
+h1 {
+  font-family: 'SF Fedora';
+  color: #730c02; }
+
+h2, h3, h4, h5, h6 {
+  font-family: 'SF Fedora';
+  color: #9e7909;
+  margin-left: 0.2em;
+  margin-right: 0.2em; }
+
+img {
+  width: 100%; }
+
+/*
+  ---- ---- ---- ---- ALL VIEWPORTS AND SIZES ---- ---- ---- ----
+*/
+body, html {
+  background-color: white; }
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto; }
+
+header.banner {
+  margin: 0.5em; }
+  header.banner img {
+    width: 10%;
+    max-width: 150px;
+    margin: 1.1em 0;
+    float: right; }
+
+#nav {
+  background-color: #403125;
+  color: #d9b79a; }
+  #nav .menu_title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #403125; }
+
+#nav ul {
+  background-color: #403125;
+  list-style: none;
+  width: 100%;
+  padding-left: 10px;
+  margin: 0; }
+  #nav ul li {
+    padding: 0.1em; }
+    #nav ul li a {
+      color: #d9b79a;
+      display: block; }
+      #nav ul li a:hover, #nav ul li a:active, #nav ul li a:focus {
+        color: #f5ece4; }
+
+footer {
+  background-color: #730c02;
+  color: #d9b79a;
+  padding: 1em 0.5em 0.2em;
+  maring: 0;
+  font-size: 0.8em; }
+
+/*  Tablet */
+/*
+@media screen and (min-width: 700px) {
+
+  #nav {
+    float: right;
+    ul {
+      list-style: none;
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline;
+    }
+  }
+}
+*/

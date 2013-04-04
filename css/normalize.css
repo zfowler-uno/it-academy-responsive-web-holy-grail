@@ -124,22 +124,22 @@ a:hover {
  */
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0.67em 0;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2.1em;
     margin: 0.83em 0;
 }
 
 h3 {
-    font-size: 1.17em;
+    font-size: 1.77em;
     margin: 1em 0;
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.3em;
     margin: 1.33em 0;
 }
 
@@ -208,7 +208,7 @@ mark {
 
 p,
 pre {
-    margin: 1em 0;
+    margin: 1em 0.5em;
 }
 
 /**
@@ -627,12 +627,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
-  HTML5BP main.css brought into this file below
-   ========================================================================== */
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -735,22 +729,7 @@ textarea {
     *zoom: 1;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-(-o-min-device-pixel-ratio: 5/4),
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
 
 /* ==========================================================================
    Print styles.
@@ -823,4 +802,7 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+
 
