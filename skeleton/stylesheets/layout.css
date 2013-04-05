@@ -17,26 +17,86 @@
 /* #Site Styles
 ================================================== */
 
+
+img { width: 95%; }
+
 /* #Page Styles
 ================================================== */
+a {
+    color: #d95204;
+    text-decoration: none; }
+a:hover {
+    color: #9d3b03;
+    text-decoration: underline; }
+a:visited {
+    color: #5c2302; }
+a:focus, a:active {
+    color: #2a1001; }
+
+h1 {
+    font-family: 'SF Fedora';
+    color: #730c02; }
+
+h2, h3, h4, h5, h6 {
+    font-family: 'SF Fedora';
+    color: #9e7909;
+    margin-left: 0.2em;
+    margin-right: 0.2em; }
+
+img {
+    width: 100%; }
+#nav {
+    background-color: #403125;
+    color: #d9b79a; }
+#nav .menu_title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #403125; }
+
+#nav ul {
+    background-color: #403125;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    margin: 0; }
+#nav ul li a {
+    color: #d9b79a; }
+#nav ul li a:hover, #nav ul li a:active, #nav ul li a:focus {
+    color: #f5ece4; }
 
 /* #Media Queries
 ================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) {
+    #nav li { display: inline; }
+}
+
 
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+        #nav li { display: inline; }
+
+    }
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+    }
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+        #nav li { display: inline; }
+
+    }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+
+    }
 
 
 /* #Font-Face
