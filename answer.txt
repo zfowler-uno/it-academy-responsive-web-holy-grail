@@ -1,0 +1,10 @@
+      #content_area {
+            margin-right: 26.04%;    /* 250 / 960 */
+        }
+        #sidebar {
+            float: right;
+            width: 23.96%;           /* 230 / 960 */
+        }
+        #footer {
+            clear: both;
+        }
