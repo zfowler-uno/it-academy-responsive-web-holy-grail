@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c6f4ff-8cd5-49d9-86d2-524e698e7239" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout.html" />
-      <change type="MOVED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\index.html" afterPath="$PROJECT_DIR$/artifacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tester.html" afterPath="$PROJECT_DIR$/tester.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="it-academy-responsive.iws" />
@@ -23,7 +20,7 @@
     <file path="/main.scss" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365118467646" ignored="false" />
     <file path="/DummyFile.xpath" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365108381605" ignored="false" />
     <file path="/tester.html" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365110320675" ignored="false" />
-    <file path="/layout.html" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365166571873" ignored="false" />
+    <file path="/layout.html" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365166798647" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
           <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="18" selection-start="592" selection-end="592" vertical-scroll-proportion="0.36690646">
+                <state line="38" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.67266184">
                   <folding />
                 </state>
               </provider>
@@ -265,7 +262,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -446,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="592" selection-end="592" vertical-scroll-proportion="0.36690646">
+        <state line="38" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.67266184">
           <folding />
         </state>
       </provider>
