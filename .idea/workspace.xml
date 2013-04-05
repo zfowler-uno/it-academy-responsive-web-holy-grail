@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c6f4ff-8cd5-49d9-86d2-524e698e7239" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artifacts.html" afterPath="$PROJECT_DIR$/artifacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="it-academy-responsive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +53,7 @@
           <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="127" column="0" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.0">
+                <state line="107" column="0" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -65,7 +62,7 @@
           <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="189" column="30" selection-start="3674" selection-end="3674" vertical-scroll-proportion="0.6639535">
+                <state line="149" column="0" selection-start="3183" selection-end="3183" vertical-scroll-proportion="0.44651163">
                   <folding />
                 </state>
               </provider>
@@ -493,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.0">
+        <state line="107" column="0" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -521,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="30" selection-start="3674" selection-end="3674" vertical-scroll-proportion="0.6639535">
+        <state line="149" column="0" selection-start="3183" selection-end="3183" vertical-scroll-proportion="0.44651163">
           <folding />
         </state>
       </provider>

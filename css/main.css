@@ -105,23 +105,3 @@ footer {
   padding: 1em 0.5em 0.2em;
   maring: 0;
   font-size: 0.8em; }
-
-/*  Tablet */
-@media screen and (min-width: 500px) {
-  #nav ul li {
-    display: inline; }
-
-  .block {
-    width: 33.3333333333333333%;
-    float: left;
-    padding: 0 15px; }
-
-  .sidebar {
-    clear: both; }
-    .sidebar .staff {
-      width: 33.3333333333%;
-      float: left;
-      padding: 0 15px; }
-
-  footer {
-    clear: both; } }
