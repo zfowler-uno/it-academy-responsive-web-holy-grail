@@ -27,27 +27,69 @@
 
         }
         #content_area {
-            margin-right: 26.04%;    /* 250 / 960 */
+
         }
         #sidebar {
-            float: right;
-            width: 23.96%;           /* 230 / 960 */
+
         }
         #footer {
-            clear: both;
+
         }
 
 
         /*  NAVIGATION */
         #nav {}
         #nav>ul {
-            padding-left: 0;
+
         }
         #nav>ul>li {
-            display: inline;
+
         }
         #nav>ul>li>a {}
         #nav>ul>li>a:hover {}
+            /* MEDIA QUERIES */
+        /* Set breakpoint at 700px */
+        @media screen and (min-width: 700px){
+
+            /* Change Layout */
+            #content_area {
+                margin-right: 26.04%;    /* 250 / 960 */
+            }
+            #sidebar {
+                float: right;
+                width: 23.96%;           /* 230 / 960 */
+            }
+            #footer {
+                clear: both;
+            }
+
+            /* Change Nav  for Desktop */
+            #nav>ul {
+                padding-left: 0;
+            }
+            #nav>ul>li {
+                display: inline;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            #wrapper {
+                max-width: 1200px;
+            }
+            #nav {
+                float: left;
+                width: 15.63%   /* 150px / 960 */
+            }
+            #nav ul {
+                padding-left: 2.08%; /* 20px / 960 */
+            }
+            #nav ul li {
+                display: block;
+            }
+            #content_area {
+                margin-left: 15.63% /* 150px / 960 */
+            }
+        }
 
 
     </style>
