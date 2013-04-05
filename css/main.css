@@ -109,34 +109,35 @@ footer {
 /*  Tablet */
 @media screen and (min-width: 500px) {
   #nav ul li {
-    display: inline; }
+  /* Change li to be inline */
+    }
 
   .block {
-    width: 33.3333333333333333%;
-    float: left;
-    padding: 0 15px; }
+    /* We want to have these blocks be spaced in thirds in one row */
+	}
 
   .sidebar {
-    clear: both; }
+    /* Clear it */ }
     .sidebar .staff {
-      width: 33.3333333333%;
-      float: left;
-      padding: 0 15px; }
+		/* Again, set in thirds */
+
+	  }
 
   footer {
     clear: both; } }
+	
+	
 @media screen and (min-width: 800px) {
   #wrapper {
-    max-width: 1200px; }
+    /* Set the max width for a desktop view, something large */ }
 
   #services {
-    width: 75%;
-    float: left; }
+   /* Services 3/4 of the screen */ }
 
   aside {
-    margin-left: 75%;
-    width: 25%; }
+   /* 25% of the screen, on the right */ }
 
+  /* gimmies */
   .sidebar {
     clear: right; }
     .sidebar .staff {
