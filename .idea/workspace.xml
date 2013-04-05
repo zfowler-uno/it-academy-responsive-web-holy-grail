@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c6f4ff-8cd5-49d9-86d2-524e698e7239" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout.html" afterPath="$PROJECT_DIR$/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="it-academy-responsive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +70,7 @@
           <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="23" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.55155873">
+                <state line="34" column="9" selection-start="796" selection-end="796" vertical-scroll-proportion="0.26618704">
                   <folding />
                 </state>
               </provider>
@@ -445,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="23" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.55155873">
+        <state line="34" column="9" selection-start="796" selection-end="796" vertical-scroll-proportion="0.26618704">
           <folding />
         </state>
       </provider>
