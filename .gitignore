@@ -2,3 +2,13 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 /.idea
 .idea/*
+.idea
+/.idea/workspace.xml
+/.idea/scopes
+/.idea/.name
+/.idea/encodings.xml
+/.idea/it-academy-responsive.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/watcherTasks.xml

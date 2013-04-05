@@ -1,0 +1,43 @@
+/* BASE */
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, sans-serif;
+    margin-top: 0;
+}
+
+/* LAYOUT */
+#wrapper {
+    width: 100%;        /* 960px */
+    max-width: 960px;   /* We provide a maximum for large screens */
+    margin: auto;
+}
+#header {
+
+}
+#content {
+
+}
+#content_area {
+
+}
+#sidebar {
+
+}
+#footer {
+
+}
+
+
+/*  NAVIGATION */
+#nav {}
+#nav>ul {
+
+}
+#nav>ul>li {
+
+}
+#nav>ul>li>a {}
+#nav>ul>li>a:hover {}

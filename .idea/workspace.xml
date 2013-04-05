@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c6f4ff-8cd5-49d9-86d2-524e698e7239" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\it-academy-responsive.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zfowler\Documents\GitHub\it-academy-responsive-web-holy-grail\.idea\watcherTasks.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout.html" afterPath="$PROJECT_DIR$/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="$PROJECT_DIR$/css/responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="it-academy-responsive.iws" />
@@ -21,7 +31,7 @@
     <file path="/main.scss" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365118467646" ignored="false" />
     <file path="/DummyFile.xpath" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365108381605" ignored="false" />
     <file path="/tester.html" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365110320675" ignored="false" />
-    <file path="/layout.html" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365167123500" ignored="false" />
+    <file path="/layout.html" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365171196368" ignored="false" />
     <file path="/responsive.css" changelist="92c6f4ff-8cd5-49d9-86d2-524e698e7239" time="1365170734661" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +82,7 @@
           <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="17" selection-start="769" selection-end="769" vertical-scroll-proportion="0.46882495">
+                <state line="19" column="12" selection-start="510" selection-end="510" vertical-scroll-proportion="0.36690646">
                   <folding />
                 </state>
               </provider>
@@ -81,7 +91,16 @@
           <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+                <state line="34" column="13" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="43" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -128,8 +147,9 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/layout.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/layout.html" />
       </list>
     </option>
   </component>
@@ -378,13 +398,6 @@
     </find-history>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artifacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -458,16 +471,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+        <state line="34" column="13" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="17" selection-start="769" selection-end="769" vertical-scroll-proportion="0.46882495">
+        <state line="19" column="12" selection-start="510" selection-end="510" vertical-scroll-proportion="0.36690646">
           <folding />
         </state>
       </provider>
