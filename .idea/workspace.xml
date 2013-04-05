@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="92c6f4ff-8cd5-49d9-86d2-524e698e7239" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout.html" afterPath="$PROJECT_DIR$/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="it-academy-responsive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +70,7 @@
           <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="21" selection-start="926" selection-end="926" vertical-scroll-proportion="1.2142857">
+                <state line="64" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.56632656">
                   <folding />
                 </state>
               </provider>
@@ -456,7 +455,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="21" selection-start="926" selection-end="926" vertical-scroll-proportion="1.2142857">
+        <state line="64" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.56632656">
           <folding />
         </state>
       </provider>

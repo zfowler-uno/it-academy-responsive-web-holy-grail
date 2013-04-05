@@ -47,7 +47,32 @@
         }
         #nav>ul>li>a {}
         #nav>ul>li>a:hover {}
+            /* MEDIA QUERIES */
+        /* Set breakpoint at 700px */
+        @media screen and (min-width: 700px){
 
+            /* Change Layout */
+            #content_area {
+                margin-right: 26.04%;    /* 250 / 960 */
+            }
+            #sidebar {
+                float: right;
+                width: 23.96%;           /* 230 / 960 */
+            }
+            #footer {
+                clear: both;
+            }
+
+            /* Change Nav for Tablet */
+            #nav>ul {
+                padding-left: 0;
+            }
+            #nav>ul>li {
+                display: inline;
+            }
+
+
+        }
 
 
     </style>
