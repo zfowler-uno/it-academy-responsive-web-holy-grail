@@ -163,19 +163,12 @@ footer   {
   font-size: 0.8em;
 }
 
-.content,
- aside {
-
-}
-
 
 
 /*  Tablet */
 
 @media screen and (min-width: 500px) {
   #nav ul li { display: inline;}
-
-
 
   .block {
     width: 33.3333333333333333%;
@@ -197,4 +190,31 @@ footer   {
   footer {
     clear: both;
   }
+}
+
+@media screen and (min-width: 800px) {
+  #wrapper {
+    max-width: 1200px;
+
+  }
+
+  #services {
+    width: 75%;
+    float: left;
+  }
+  aside {
+    margin-left: 75%;
+
+    width: 25%;
+  }
+
+  .sidebar {
+    clear: right;
+    .staff {
+      width: 100%;
+      float: none;
+
+    }
+  }
+
 }
